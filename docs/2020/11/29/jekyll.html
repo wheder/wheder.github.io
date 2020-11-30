@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jekyll - not that easy</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <h1>Jekyll - not that easy</h1>
+    <section>
+      <p>2020-11-29 00:00:00 -0600 - Written by </p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>First post in a blog created in [https://jekyllrb.com/</td>
+      <td>Jekyll] and [https://pages.github.com/</td>
+      <td>Github pages]. Finally!</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I wanted to create a simple blog and not maintain some Wordpress or any other site, the hosting, patching, …
+I also do not want to be locked in some free/paid blog service, in case anything goes wrong..
+So, a static pages with git backend seemed quite reasonable. If anything goes wrong with the service, I can easily migrate to ANY webserver, which will just serve my static web/blog.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Jekyll is a static web generator, written in [https://www.ruby-lang.org/</td>
+      <td>ruby]. It works, but having no extensive knowledge of ruby, only basic from using [https://capistranorb.com/</td>
+      <td>Capistrano], it can get stressful.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>[https://en.wikipedia.org/wiki/Markdown</td>
+      <td>Markdown] is okay, but all the other stuff?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Fortunately, I have collected a few links which helped me build some basic skeleton:</p>
+<ul>
+  <li>https://jekyllrb.com/docs/step-by-step/10-deployment/ - some intro how to propagate the page to Github pages</li>
+  <li>https://github.com/envygeeks/jekyll-docker/blob/master/README.md - ease of use, not getting into the details of ruby, Jekyll and stuff, just run it!</li>
+  <li>https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml - some example <code class="language-plaintext highlighter-rouge">_config.yml</code>, as the turotial does not provide any decent</li>
+  <li>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code - the name says it all</li>
+  <li>https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll - how to create Github pages - a few links inside</li>
+  <li>https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll - github pages intro</li>
+  <li>https://jekyllrb.com/docs/front-matter/ - Jekyll intro into index page and styles etc.</li>
+  <li>https://jekyllrb.com/docs/configuration/ - extensive configuration documentation for Jekyll</li>
+  <li>https://jekyllrb.com/docs/configuration/options/ - all the variables in the settings</li>
+  <li>https://jekyllrb.com/docs/layouts/ - Jekyll layouts intro</li>
+  <li>https://jekyllrb.com/docs/structure/ - how will the directories be organized and how to name things</li>
+  <li>https://jekyllrb.com/docs/pages/ - how regular pages work</li>
+  <li>https://jekyllrb.com/docs/pagination/ - probably useless, it requires HTML and not Markdown</li>
+  <li>https://jekyllrb.com/docs/includes/ - including common parts into pages</li>
+</ul>
+
+<p>In the basic first setup, it works somehow acceptable. The file and its URL is quite correct, in the format /<em>year</em>/<em>month</em>/<em>day</em>/<em>name-of-the-post.html</em></p>
+
+<p>The only thing I am missing is generating full page trees for posts. It does not generate /<em>year</em>/<em>month</em>/<em>day</em>/<em>index.html</em> for all the blogposts in one day, neither a list of all posts in a month /<em>year</em>/<em>month</em>/<em>index.html</em> … this will be my next task to somehow figure out.</p>
+
+<p>In conclusion I am satisfied with this solution, but not overjoyed. Still a win in my book.</p>
+
+
+
+    </section>
+    <footer>
+      &copy; to me
+    </footer>
+  </body>
+</html>

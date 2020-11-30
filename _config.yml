@@ -1,0 +1,6 @@
+destination: docs
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
